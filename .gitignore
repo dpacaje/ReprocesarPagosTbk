@@ -1,0 +1,23 @@
+# Entornos virtuales (venv)
+venv/
+.venv/
+env/
+ENV/
+
+# Configuración y Secretos (Importante para tu .env)
+.env
+.python-version
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / Empaquetado
+dist/
+build/
+*.egg-info/
+
+# IDEs (Opcional pero recomendado)
+.vscode/
+.idea/

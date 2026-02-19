@@ -18,6 +18,9 @@ DB_CONFIG = {
 }
 
 DATABASES = [
+    "portal_calera",
+    "portal_cholchol",
+    "portal_curacautin",
     "portal_maipo",
     "portal_olivar",
     "portal_pichidegua",

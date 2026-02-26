@@ -100,7 +100,7 @@ class ScriptProcesador:
                                 "db": registro["source_db"],
                                 "tipo": registro["tipo"]
                             })
-                            print(f"Registro Pagado ID {registro['id']} | DB: {registro['source_db']} | CLIENTE: {registro['cliente']}")
+                            print(f"Registro Pagado ID {registro['id']} | TIPO: {registro['tipo']} | DB: {registro['source_db']} | CLIENTE: {registro['cliente']}")
                         
                         exito_api = True
                         break
